@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Declares the document type and specifies the HTML version -->
+    <meta charset="UTF-8">
+    <!-- Defines the viewport (browser window) settings -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Links to an external CSS file for styling -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Sets the title of the webpage -->
+    <title>Stopwatch</title>
+</head>
+
+<body>
+    <!-- Creates a heading for the stopwatch -->
+    <h1 id="myH1">Stopwatch</h1>
+    <!-- Container for the stopwatch display and controls -->
+    <div id="container">
+        <!-- Displays the stopwatch time -->
+        <div id="display">
+            00:00:00:00
+        </div>
+        <!-- Container for the stopwatch controls -->
+        <div id="controls">
+            <!-- Reset button to reset the stopwatch -->
+            <button id="resetBtn" onclick="reset()">Reset</button>
+            <!-- Start button to start the stopwatch -->
+            <button id="startBtn" onclick="start()">Start</button>
+            <!-- Lap button to record a lap time -->
+            <button id="lapBtn" onclick="lap()">Lap</button>
+        </div>
+    </div>
+    <!-- Unordered list to display lap times -->
+    <ul id="laps">
+    </ul>
+    <!-- Links to an external JavaScript file for functionality -->
+    <script src="main.js"></script>
+</body>
+
+</html>

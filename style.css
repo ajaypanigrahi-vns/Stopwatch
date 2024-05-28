@@ -1,0 +1,118 @@
+/* Body styling with flexbox, centered alignment, and dark background color */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(48, 41, 41);
+}
+
+
+/* Heading 1 styling with large font size, Arial font, and light gray color */
+
+#myH1 {
+    font-size: 4rem;
+    font-family: "Arial", sans-serif;
+    color: rgb(243, 235, 235);
+}
+
+
+/* Container styling with flexbox, centered alignment, padding, border, and white background */
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border: 5px solid;
+    border-radius: 50px;
+    background-color: white;
+}
+
+
+/* Display styling with large font size, Verdana, Geneva, Tahoma, sans-serif font, bold weight, dark gray color, and text shadow */
+
+#display {
+    font-size: 5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: hsl(0, 0%, 30%);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.75);
+    margin-bottom: 25px;
+}
+
+
+/* Controls button styling with font size, font weight, padding, margin, minimum width, no border, and cursor pointer */
+
+#controls button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+
+/* Start button styling with green background color and hover effect */
+
+#startBtn {
+    background-color: rgb(17, 204, 0);
+}
+
+#startBtn:hover {
+    background-color: rgb(13, 153, 0);
+}
+
+
+/* Lap button styling with red background color and hover effect */
+
+#lapBtn {
+    background-color: rgb(242, 51, 13);
+}
+
+#lapBtn:hover {
+    background-color: hsl(10, 90%, 40%);
+}
+
+
+/* Reset button styling with blue background color and hover effect */
+
+#resetBtn {
+    background-color: rgb(61, 168, 245);
+}
+
+#resetBtn:hover {
+    background-color: rgb(13, 147, 242);
+}
+
+
+/* Laps list styling with no list style, gray color, relative positioning, and padding */
+
+#laps {
+    list-style: none;
+    color: rgba(0, 0, 0, 0.782);
+    height: auto;
+    position: relative;
+    padding: 30px 0;
+}
+
+
+/* Laps list item styling with inline-block display, width, padding, background color, text alignment, border, and margin */
+
+#laps li {
+    display: inline-block;
+    width: 250px;
+    padding: 10px;
+    background-color: antiquewhite;
+    text-align: center;
+    border: 1px solid #444;
+    border-radius: 50px;
+    margin-bottom: 15px;
+    display: grid;
+    justify-items: center;
+}
